@@ -11,6 +11,11 @@
     ],
     "compilerOptions": {
         "tsBuildInfoFile": "../node_modules/.tmp/tsconfig.play.tsbuildinfo",
-        "baseUrl": "./"
+        "baseUrl": "./",
+        "paths": {
+            "@tiny-design/components": [
+                "packages/components"
+            ]
+        }
     }
 }
