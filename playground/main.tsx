@@ -1,10 +1,10 @@
-import { TinyTest } from '@tiny-design/core';
+import { TinyButton } from '@tiny-design/core';
 import { render } from 'solid-js/web';
 
 const App = () => {
   return (
     <>
-      <TinyTest />
+      <TinyButton>点击我</TinyButton>
     </>
   );
 };

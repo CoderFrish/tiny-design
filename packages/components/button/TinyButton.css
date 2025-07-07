@@ -1,0 +1,14 @@
+.tiny_button {
+    background-color: var(--tiny-button-color);
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: .9em;
+    color: var(--tiny-white-color);
+}
+
+.tiny_button:hover {
+    cursor: pointer;
+    background-color: var(--tiny-button-hover-color);
+}

@@ -14,8 +14,9 @@ export default defineConfig({
     outDir: '../../dist',
     lib: {
       entry: 'index.ts',
+      name: "index",
       fileName: 'index',
-      formats: ['cjs', 'es'],
+      formats: ['cjs', 'es', 'umd'],
     },
     rollupOptions: {
       external: ['solid-js'],

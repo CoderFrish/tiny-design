@@ -1,4 +1,6 @@
 :root {
   --tiny-black-color: black;
-  --tiny-primary-color: #5996ff;
+  --tiny-white-color: white;
+  --tiny-button-color: #409EFF;
+  --tiny-button-hover-color: rgb(126, 190, 255);
 }
