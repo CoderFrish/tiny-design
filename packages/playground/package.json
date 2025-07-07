@@ -5,6 +5,6 @@
         "dev": "vite"
     },
     "dependencies": {
-        "@tiny-design/core": "workspace:^"
+        "@tiny-design/core": "workspace:*"
     }
 }

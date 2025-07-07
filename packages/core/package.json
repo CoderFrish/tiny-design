@@ -5,6 +5,7 @@
         "build": "vite build --config vite.config.ts"
     },
     "dependencies": {
-        "@tiny-design/components": "workspace:^"
+        "@tiny-design/components": "workspace:*",
+        "@tiny-design/themes": "workspace:*"
     }
 }

@@ -1,7 +1,11 @@
-const TinyTest = () => {
-    return (
-        <>Hello Solidjs Components!!</>
-    )
-}
+import './TinyTest.css';
 
-export default TinyTest
+const TinyTest = () => {
+  return (
+    <>
+      <div class="tinyTest">Hello Solidjs Components!!</div>
+    </>
+  );
+};
+
+export default TinyTest;
