@@ -14,7 +14,7 @@ export default defineConfig({
     outDir: '../../dist',
     lib: {
       entry: 'index.ts',
-      name: "index",
+      name: 'index',
       fileName: 'index',
       formats: ['cjs', 'es', 'umd'],
     },

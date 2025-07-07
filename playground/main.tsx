@@ -4,7 +4,19 @@ import { render } from 'solid-js/web';
 const App = () => {
   return (
     <>
-      <TinyButton>点击我</TinyButton>
+      <div>
+        <TinyButton type="primary">Primary</TinyButton>
+        &nbsp;&nbsp;
+        <TinyButton type="default">Default</TinyButton>
+        &nbsp;&nbsp;
+        <TinyButton type="info">Info</TinyButton>
+        &nbsp;&nbsp;
+        <TinyButton type="success">Success</TinyButton>
+        &nbsp;&nbsp;
+        <TinyButton type="warn">Warn</TinyButton>
+        &nbsp;&nbsp;
+        <TinyButton type="error">Error</TinyButton>
+      </div>
     </>
   );
 };

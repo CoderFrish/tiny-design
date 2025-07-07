@@ -1,14 +1,73 @@
 .tiny_button {
-    background-color: var(--tiny-button-color);
-    outline: none;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: .9em;
-    color: var(--tiny-white-color);
+  background-color: var(--tiny-button-bg-color);
+  outline: none;
+  border: var(--tiny-button-border-width) var(--tiny-button-border-style)
+    var(--tiny-button-border-color);
+  padding: var(--tiny-button-top-padding) var(--tiny-button-right-padding)
+    var(--tiny-button-bottom-padding) var(--tiny-button-left-padding);
+  border-radius: var(--tiny-button-border-radius);
+  font-size: var(--tiny-button-font-size);
+  color: var(--tiny-button-font-color);
 }
 
 .tiny_button:hover {
-    cursor: pointer;
-    background-color: var(--tiny-button-hover-color);
+  cursor: pointer;
+  background-color: var(--tiny-button-hover-bg-color);
+}
+
+/* default */
+.tiny_default_button {
+  --tiny-button-bg-color: var(--tiny-white-color);
+  --tiny-button-font-color: var(--tiny-black-color);
+}
+
+.tiny_default_button:hover {
+  --tiny-button-hover-bg-color: rgb(245, 250, 255);
+  --tiny-button-font-color: var(--tiny-primary-color-light-2);
+  --tiny-button-border-color: var(--tiny-primary-color-light-2);
+}
+
+/* primary */
+.tiny_primary_button {
+  --tiny-button-bg-color: var(--tiny-primary-color);
+}
+
+.tiny_primary_button:hover {
+  --tiny-button-hover-bg-color: var(--tiny-primary-color-light-1);
+}
+
+/* info */
+.tiny_info_button {
+  --tiny-button-bg-color: var(--tiny-info-color);
+}
+
+.tiny_info_button:hover {
+  --tiny-button-hover-bg-color: var(--tiny-info-color-light-1);
+}
+
+/* success */
+.tiny_success_button {
+  --tiny-button-bg-color: var(--tiny-success-color);
+}
+
+.tiny_success_button:hover {
+  --tiny-button-hover-bg-color: var(--tiny-success-color-light-2);
+}
+
+/* warn */
+.tiny_warn_button {
+  --tiny-button-bg-color: var(--tiny-warn-color);
+}
+
+.tiny_warn_button:hover {
+  --tiny-button-hover-bg-color: var(--tiny-warn-color-light-2);
+}
+
+/* error */
+.tiny_error_button {
+  --tiny-button-bg-color: var(--tiny-error-color);
+}
+
+.tiny_error_button:hover {
+  --tiny-button-hover-bg-color: var(--tiny-error-color-light-1);
 }

@@ -1,6 +1,43 @@
 :root {
   --tiny-black-color: black;
   --tiny-white-color: white;
-  --tiny-button-color: #409EFF;
-  --tiny-button-hover-color: rgb(126, 190, 255);
+  --tiny-primary-color: #409eff;
+  --tiny-primary-color-light-1: rgb(85, 170, 255);
+  --tiny-primary-color-light-2: rgb(116, 186, 255);
+  --tiny-primary-color-light-3: rgb(145, 200, 255);
+  --tiny-primary-color-light-4: rgb(176, 215, 255);
+  --tiny-info-color: gray;
+  --tiny-info-color-light-1: rgb(160, 160, 160);
+  --tiny-info-color-light-2: rgb(182, 182, 182);
+  --tiny-info-color-light-3: rgb(208, 208, 208);
+  --tiny-info-color-light-4: rgb(234, 234, 234);
+  --tiny-success-color: #67c23a;
+  --tiny-success-color-light-1: #7dc15c;
+  --tiny-success-color-light-2: #8fc275;
+  --tiny-success-color-light-3: #9fc38d;
+  --tiny-success-color-light-4: #b1c3a7;
+  --tiny-warn-color: #e6a23c;
+  --tiny-warn-color-light-1: #e4b56f;
+  --tiny-warn-color-light-2: #deb67a;
+  --tiny-warn-color-light-3: #e0c192;
+  --tiny-warn-color-light-4: #e4d2b6;
+  --tiny-error-color: #f56c6c;
+  --tiny-error-color-light-1: #f19393;
+  --tiny-error-color-light-2: #eba7a7;
+  --tiny-error-color-light-3: #eabbbb;
+  --tiny-error-color-light-4: #e8d0d0;
+
+  /* TinyButton style */
+  --tiny-button-font-color: var(--tiny-white-color);
+  --tiny-button-bg-color: var(--tiny-primary-color);
+  --tiny-button-hover-bg-color: var(--tiny-primary-color-light-1);
+  --tiny-button-border-width: 1px;
+  --tiny-button-border-style: solid;
+  --tiny-button-border-color: #dcdfe6;
+  --tiny-button-border-radius: 5px;
+  --tiny-button-font-size: 0.95em;
+  --tiny-button-top-padding: 8px;
+  --tiny-button-bottom-padding: var(--tiny-button-top-padding);
+  --tiny-button-left-padding: 10px;
+  --tiny-button-right-padding: var(--tiny-button-left-padding);
 }
