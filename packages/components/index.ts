@@ -1,3 +1,3 @@
-import TinyTest from "./test/TinyTest"
+import TinyTest from './test/TinyTest';
 
-export { TinyTest }
+export { TinyTest };

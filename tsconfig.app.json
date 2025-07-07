@@ -1,21 +1,12 @@
 {
-    "extends": "./tsconfig.base.json",
-    "include": [
-        "packages/**/*.tsx",
-        "packages/**/*.ts",
-        "packages/**/*"
-    ],
-    "exclude": [
-        "packages/core/vite.config.ts",
-        "packages/playground/**/*"
-    ],
-    "compilerOptions": {
-        "tsBuildInfoFile": "../node_modules/.tmp/tsconfig.play.tsbuildinfo",
-        "baseUrl": "./",
-        "paths": {
-            "@tiny-design/components": [
-                "packages/components"
-            ]
-        }
+  "extends": "./tsconfig.base.json",
+  "include": ["packages/**/*.tsx", "packages/**/*.ts", "packages/**/*"],
+  "exclude": ["packages/core/vite.config.ts"],
+  "compilerOptions": {
+    "tsBuildInfoFile": "../node_modules/.tmp/tsconfig.play.tsbuildinfo",
+    "baseUrl": "./",
+    "paths": {
+      "@tiny-design/components": ["packages/components"]
     }
+  }
 }

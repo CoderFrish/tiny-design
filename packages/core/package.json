@@ -1,11 +1,14 @@
 {
-    "name": "@tiny-design/core",
-    "private": true,
-    "scripts": {
-        "build": "vite build --config vite.config.ts"
-    },
-    "dependencies": {
-        "@tiny-design/components": "workspace:*",
-        "@tiny-design/themes": "workspace:*"
-    }
+  "name": "@tiny-design/core",
+  "private": true,
+  "scripts": {
+    "build": "vite build --config vite.config.ts"
+  },
+  "dependencies": {
+    "@tiny-design/components": "workspace:*",
+    "@tiny-design/themes": "workspace:*"
+  },
+  "devDependencies": {
+    "vite-plugin-dts": "^4.5.4"
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "name": "@tiny-design/playground",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@tiny-design/core": "workspace:*"
+  },
+  "devDependencies": {
+    "vite-plugin-html": "^3.2.2"
+  }
+}
