@@ -66,8 +66,5 @@
     },
     "peerDependencies": {
         "solid-js": "^1.9.7"
-    },
-    "dependencies": {
-        "@tiny-design/core": "workspace:^"
     }
 }

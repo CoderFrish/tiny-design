@@ -3,5 +3,8 @@
     "private": true,
     "scripts": {
         "dev": "vite"
+    },
+    "dependencies": {
+        "@tiny-design/core": "workspace:^"
     }
 }
