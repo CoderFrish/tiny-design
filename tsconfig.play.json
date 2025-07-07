@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.base.json",
+    "include": [
+        "packages/playground/**/*.tsx",
+        "packages/playground/**/*.ts",
+        "packages/playground/**/*"
+    ],
+    "exclude": [
+        "packages/playground/vite.config.ts"
+    ],
+    "compilerOptions": {
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.play.tsbuildinfo",
+    }
+}

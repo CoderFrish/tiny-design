@@ -1,0 +1,7 @@
+{
+    "name": "@tiny-design/playground",
+    "private": true,
+    "scripts": {
+        "dev": "vite"
+    }
+}
