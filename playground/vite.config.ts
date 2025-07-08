@@ -9,4 +9,7 @@ export default defineConfig({
       entry: '/main.tsx',
     }),
   ],
+  server: {
+    host: "0.0.0.0"
+  }
 });

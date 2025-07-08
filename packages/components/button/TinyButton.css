@@ -1,10 +1,8 @@
 .tiny_button {
   background-color: var(--tiny-button-bg-color);
   outline: none;
-  border: var(--tiny-button-border-width) var(--tiny-button-border-style)
-    var(--tiny-button-border-color);
-  padding: var(--tiny-button-top-padding) var(--tiny-button-right-padding)
-    var(--tiny-button-bottom-padding) var(--tiny-button-left-padding);
+  border: var(--tiny-button-border-width) var(--tiny-button-border-style) var(--tiny-button-border-color);
+  padding: var(--tiny-button-top-padding) var(--tiny-button-right-padding) var(--tiny-button-bottom-padding) var(--tiny-button-left-padding);
   border-radius: var(--tiny-button-border-radius);
   font-size: var(--tiny-button-font-size);
   color: var(--tiny-button-font-color);
@@ -21,15 +19,25 @@
   --tiny-button-font-color: var(--tiny-black-color);
 }
 
+.tiny_default_button:active {
+  --tiny-button-active-bg-color: var(--tiny-button-hover-bg-color);
+  background-color: var(--tiny-button-active-bg-color);
+  --tiny-button-border-color: var(--tiny-primary-color-light-1);
+}
+
 .tiny_default_button:hover {
   --tiny-button-hover-bg-color: rgb(245, 250, 255);
-  --tiny-button-font-color: var(--tiny-primary-color-light-2);
-  --tiny-button-border-color: var(--tiny-primary-color-light-2);
+  --tiny-button-font-color: var(--tiny-primary-color-light-1);
 }
 
 /* primary */
 .tiny_primary_button {
   --tiny-button-bg-color: var(--tiny-primary-color);
+}
+
+.tiny_primary_button:active {
+  --tiny-button-active-bg-color: var(--tiny-primary-color-dark-1);
+  background-color: var(--tiny-button-active-bg-color);
 }
 
 .tiny_primary_button:hover {
@@ -41,6 +49,11 @@
   --tiny-button-bg-color: var(--tiny-info-color);
 }
 
+.tiny_info_button:active {
+  --tiny-button-active-bg-color: var(--tiny-info-color-dark-1);
+  background-color: var(--tiny-button-active-bg-color);
+}
+
 .tiny_info_button:hover {
   --tiny-button-hover-bg-color: var(--tiny-info-color-light-1);
 }
@@ -48,6 +61,11 @@
 /* success */
 .tiny_success_button {
   --tiny-button-bg-color: var(--tiny-success-color);
+}
+
+.tiny_success_button:active {
+  --tiny-button-active-bg-color: var(--tiny-success-color-dark-1);
+  background-color: var(--tiny-button-active-bg-color);
 }
 
 .tiny_success_button:hover {
@@ -59,6 +77,11 @@
   --tiny-button-bg-color: var(--tiny-warn-color);
 }
 
+.tiny_warn_button:active {
+  --tiny-button-active-bg-color: var(--tiny-warn-color-dark-1);
+  background-color: var(--tiny-button-active-bg-color);
+}
+
 .tiny_warn_button:hover {
   --tiny-button-hover-bg-color: var(--tiny-warn-color-light-2);
 }
@@ -66,6 +89,11 @@
 /* error */
 .tiny_error_button {
   --tiny-button-bg-color: var(--tiny-error-color);
+}
+
+.tiny_error_button:active {
+  --tiny-button-active-bg-color: var(--tiny-error-color-dark-1);
+  background-color: var(--tiny-button-active-bg-color);
 }
 
 .tiny_error_button:hover {
