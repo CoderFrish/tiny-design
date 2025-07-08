@@ -2,6 +2,9 @@
   "files": [],
   "references": [
     {
+      "path": "./tsconfig.vitepress-config.json"
+    },
+    {
       "path": "./tsconfig.vite-config.json"
     },
     {

@@ -1,0 +1,13 @@
+{
+  "name": "@tiny-design/docs",
+  "private": true,
+  "type": "module",
+  "main": "index.md",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build"
+  },
+  "devDependencies": {
+    "vitepress": "1.1.4"
+  }
+}

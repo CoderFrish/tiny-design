@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.node.json",
+  "include": ["docs/.vitepress/config.ts"],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.vitepress-config.tsbuildinfo"
+  }
+}

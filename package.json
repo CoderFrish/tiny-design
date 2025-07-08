@@ -35,6 +35,8 @@
   "scripts": {
     "dev:play": "pnpm --filter=@tiny-design/playground dev",
     "build": "pnpm --filter=@tiny-design/core build",
+    "dev:docs": "pnpm --filter=@tiny-design/docs dev",
+    "build:docs": "pnpm --filter=@tiny-design/docs build",
     "format": "prettier --write ."
   },
   "files": [
