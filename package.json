@@ -1,6 +1,6 @@
 {
   "name": "tiny-design",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a ui components library for solidjs.",
   "engines": {
     "node": ">=20"
@@ -61,7 +61,7 @@
     "components",
     "design"
   ],
-  "homepage": "https://github.com/CoderFrish/tiny-design",
+  "homepage": "https://coderfrish.github.io/tiny-design/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CoderFrish/tiny-design.git"
